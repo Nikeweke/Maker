@@ -67,6 +67,7 @@ src/*
 node_modules/
 vendor/
 pusher.bat
+build/
 `
 
 

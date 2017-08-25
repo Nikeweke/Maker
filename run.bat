@@ -17,6 +17,7 @@ REM go get github.com/robfig/cron
 REM go get github.com/drgomesp/gorm
 REM go get github.com/go-sql-driver/mysql
 
-go run index.go
-REM go build maker.go
+REM go run index.go
+REM go build -o build/Maker index.go
+go build -o build/Maker.exe index.go
 pause
