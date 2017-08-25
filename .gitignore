@@ -1,0 +1,5 @@
+src/*
+!src/app
+node_modules/
+vendor/
+pusher.bat
