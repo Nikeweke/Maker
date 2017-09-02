@@ -16,8 +16,11 @@ REM go get github.com/gorilla/websocket
 REM go get github.com/robfig/cron
 REM go get github.com/drgomesp/gorm
 REM go get github.com/go-sql-driver/mysql
+REM go get github.com/pilu/fresh
 
-REM go run index.go
+
+REM fresh - hot reloader
+go run index.go
 REM go build -o build/Maker index.go
-go build -o build/Maker.exe index.go
+REM go build -o build/Maker.exe index.go
 pause
