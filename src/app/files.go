@@ -39,7 +39,10 @@ REM go get github.com/gorilla/websocket
 REM go get github.com/robfig/cron
 REM go get github.com/drgomesp/gorm
 REM go get github.com/go-sql-driver/mysql
+REM go get github.com/pilu/fresh
 
+
+REM fresh - hot reloader
 go run main.go
 REM go build main.go
 pause

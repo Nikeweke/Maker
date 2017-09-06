@@ -15,22 +15,25 @@ import (
            var choice int
            var files []string
 
+           var files_name = []string{".gitignore", "pusher.bat", "readme.md", "main.go", "run.bat"}
+
            Greeting()
            fmt.Scanln(&choice)
            fmt.Println()
 
+
            switch choice {
              case 1:
-                    files = append(files, ".gitignore", ".pusher.bat")
+                    files = append(files, files_name[0], files_name[1])
                     CreateFilesFromArr(files)
              case 2:
-                    files = append(files, ".gitignore", "pusher.bat", "readme.md")
+                    files = append(files, files_name[0], files_name[1], files_name[2])
                     CreateFilesFromArr(files)
              case 3:
-                     files = append(files, "main.go", "run.bat")
+                     files = append(files, files_name[3], files_name[4])
                      CreateFilesFromArr(files)
              case 4:
-                    files = append(files, ".gitignore", "pusher.bat", "readme.md", "main.go", "run.bat")
+                    files = append(files, files_name[0], files_name[1], files_name[2], files_name[3], files_name[4])
                     CreateFilesFromArr(files)
              case 8:
                  os.Exit(3)
